@@ -27,6 +27,7 @@ import detailImage from "@/assets/nail-art-detail.jpg";
 import logoAsset from "@/assets/xnail-logo.png.asset.json";
 
 export const Route = createFileRoute("/")({
+  staticData: { sitemap: true },
   head: () => ({
     meta: [
       { title: "Xnail Bar Franchise | Premium Nail Business India" },
