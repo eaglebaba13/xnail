@@ -60,6 +60,7 @@ const proof = [
   ["79", "Cloud Setups", "Shop-in-shop expansion model"],
   ["6,000+", "Happy Clients", "A growing customer community"],
   ["2022", "Founded in Jaipur", "Built for national expansion"],
+  ["Pan-India", "Expansion", "Built for nail entrepreneurs"],
 ];
 
 const comparison = [
@@ -155,9 +156,10 @@ function FranchisePage() {
       <section className="border-b border-foreground/10 bg-surface py-10">
         <div className="mx-auto max-w-7xl px-5 lg:px-8">
           <p className="eyebrow mb-7">Why Xnail is different</p>
-          <div className="grid grid-cols-2 gap-x-6 gap-y-8 md:grid-cols-5">
+          <div className="grid grid-cols-2 gap-x-6 gap-y-8 md:grid-cols-3 lg:grid-cols-6">
             {proof.map(([number, label, copy]) => <div key={label}><strong className="font-display text-3xl text-primary md:text-4xl">{number}</strong><h3 className="mt-2 text-sm font-bold">{label}</h3><p className="mt-1 text-xs leading-5 text-muted-foreground">{copy}</p></div>)}
           </div>
+          <p className="mt-7 text-[10px] leading-4 text-muted-foreground">Current network figures supplied by Xnail and subject to internal verification.</p>
         </div>
       </section>
 
